@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="loginD.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Signup</h1>
+    <p class="description">Enter your Driver's ID credentials to login</p>
+    <form class="signup-form">
+        <label for="driverId" class="form-label">Driver ID</label>
+        <input type="text" id="driverId" name="driverId" class="form-control" placeholder="Enter Driver ID" required>
+    
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+    
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+    
+        <label for="password" class="form-label">Password</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required>
+    
+        <label for="phone" class="form-label">Phone</label>
+        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number" required>
+    
+        <label for="location" class="form-label">Location</label>
+        <input type="text" id="location" name="location" class="form-control" placeholder="Enter your location" required>
+    
+        <button type="submit" class="btn btn-primary">Sign up</button>
+    </form>
+    
+    
+  </div>
+  <img class="logImg" src="./Images/log.gif">
+  <div class="text">Signup and get your car assigned.</div>
+  <!-- <div class="text1">Please enter your email and password to Continue.</div> -->
+  
+
+  <script src="script.js"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+
+</body>
+</html>
