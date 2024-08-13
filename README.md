@@ -2,6 +2,9 @@
 # Overview
 The Vehicle-Driver Management System is a web application designed to manage and organize drivers and vehicles efficiently. This project provides functionalities for driver creation, vehicle-driver assignment, time scheduling, conflict handling, driver requests, response management, and location-based searches.
 
+# Status
+As of now, the frontend part of the project is primarily completed. I have a solid understanding of backend development, but due to time constraints, I have not yet been able to focus on that aspect. I plan to work on the backend soon to complete the project.
+
 # Features
 Driver Creation: Add new drivers with their credentials.
 Vehicle-Driver Assignment: Assign vehicles to drivers.
